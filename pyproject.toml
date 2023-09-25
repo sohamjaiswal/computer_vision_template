@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "computer-vision"
+version = "0.1.0"
+description = "A template for basic computer vision, trained to identify food images."
+authors = ["Soham Jaiswal <sohamjaiswal10@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8.10"
+numpy = "1.24.3"
+pandas = "2.0.0"
+matplotlib = "3.7.0"
+scikit-learn = "1.3.0"
+pydot = "1.4.2"
+pydotplus = "2.0.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.25.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
